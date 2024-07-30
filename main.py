@@ -9,15 +9,11 @@ try:
     from colorama import Fore, Style, init
     from requests import Session
     from datetime import datetime
-except ModuleNotFoundError:
-    os.system('pip install pystyle')
-    os.system('pip install colorama')
-    os.system('pip install requests')
-    os.system('pip install datetime')
-    from flask import Flask
+
+from flask import Flask
 from threading import Thread
 
-app = Flask('')
+app = Flask(__name__)
 
 @app.route('/')
 def main():
@@ -29,6 +25,10 @@ def run():
 def keep_alive():
   server = Thread(target=run)
   server.start()
+
+# Call keep_alive to start the server
+keep_alive()
+
 
 class Output:
     reset = Fore.RESET
