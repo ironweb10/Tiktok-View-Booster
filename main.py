@@ -1,6 +1,6 @@
 # <- Bypassed the zefoy.com captcha and shits 👍 -> # 
-# <- By H4cK3dR4Du (tls_spoof) -> #
-
+# <- Modded by iron web10 -> #
+# <- Added 24/7 host -> #
 import os, re, sys, time, json, random, string, base64, ctypes, threading
 from urllib.parse import urlparse, unquote
 
