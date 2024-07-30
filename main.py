@@ -1,6 +1,3 @@
-# <- Bypassed the zefoy.com captcha and shits 👍 -> # 
-# <- Modded by iron web10 -> #
-# <- Added 24/7 host -> #
 import os, re, sys, time, json, random, string, base64, ctypes, threading
 from urllib.parse import urlparse, unquote
 
@@ -9,9 +6,11 @@ try:
     from colorama import Fore, Style, init
     from requests import Session
     from datetime import datetime
-
-from flask import Flask
-from threading import Thread
+    from flask import Flask
+    from threading import Thread
+except ImportError as e:
+    print(f"Error importing modules: {e}")
+    sys.exit(1)
 
 app = Flask(__name__)
 
