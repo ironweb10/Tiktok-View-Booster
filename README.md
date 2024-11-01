@@ -9,6 +9,7 @@ Views on tiktok :O
 - Custom Threads
 - In-Built Text Captcha Solver
 - Zefoy.com
+- Aded 24/7 support for host is 24/7 on [render](https://render.com/) (Credits to [iron web10](https://github.com/ironweb10))
 
 ## ✍️ Usage
 1. Put your tiktok video url in `config.json`
