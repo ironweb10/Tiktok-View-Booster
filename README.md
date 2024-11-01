@@ -11,7 +11,10 @@ Views on tiktok :O
 - Zefoy.com
 
 ## ✍️ Usage
-1. Open `main.py` (hard please be careful)
+1. Put your tiktok video url in `config.json`
+2. Run install.bat
+3. Run start.bat
+4. Enjoy :D
 
 ## ⚠️ DISCLAIMER / NOTES
 This github repo is for EDUCATIONAL PURPOSES ONLY. I am NOT under any responsibility if a problem occurs.
