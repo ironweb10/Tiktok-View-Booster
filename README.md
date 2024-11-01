@@ -12,8 +12,8 @@ Views on tiktok :O
 
 ## ✍️ Usage
 1. Put your tiktok video url in `config.json`
-2. Run install.bat
-3. Run start.bat
+2. Run `install.bat`
+3. Run `start.bat`
 4. Enjoy :D
 
 ## ⚠️ DISCLAIMER / NOTES
